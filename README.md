@@ -13,6 +13,11 @@ Seq2seqのサンプル実装です。
 * `python3.5 src/model_train.py`を実行すると、モデルの学習ができます
 * 学習したモデルは、`echo "これは1つ目の文です。\nこれは2つ目の文です。" | mecab -O wakati | python3.5 src/model_test.py`などのように文を分かち書きして標準入力から渡すと返答が出力されます。
 
+
+## 参考サイト
+[今更ながらchainerでSeq2Seq(1)](http://qiita.com/kenchin110100/items/b34f5106d5a211f4c004#encoder)
+
+
 ## メモ: Chainerの初歩的引っかかりポイント
 * 引数はバッチで渡すか、1つのベクトルか
     * 公式ドキュメントで確認しましょう
